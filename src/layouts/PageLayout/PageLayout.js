@@ -11,7 +11,6 @@ class PageLayout extends React.Component {
     <div className={`${styles.wrapper} h100`}>
       <header>
         <h1 className="header-nav">
-          <img alt='' width="34" height="31" className='logo' src={logo} className="mr-15"/>
           DEMO
         </h1>
       </header>
