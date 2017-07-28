@@ -13,6 +13,7 @@ module.exports = {
   outDir: 'dist',
   /** The base path for all projects assets (relative to the website root) */
   publicPath: '/admin/',
+  /** The root path for web   */
   urlRoot: 'admin',
   /** Whether to generate sourcemaps */
   sourcemaps: true,
