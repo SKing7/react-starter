@@ -14,7 +14,7 @@ class PageLayout extends React.Component {
     <div className={`${styles.wrapper} h100`}>
       <header>
         <h1 className="header-nav">
-          <img alt='海致遥感大数据图像处理云平台' width="34" height="31" className='logo' src={logo} className="mr-15"/>
+          <img alt='' width="34" height="31" className='logo' src={logo} className="mr-15"/>
           数据预处理系统
         </h1>
         <nav>
@@ -24,7 +24,7 @@ class PageLayout extends React.Component {
       <div className="content-wrapper">
         <ul className='left-nav'>
           <li className="process-nav">
-            <Link to='/home/' activeClassName='active'>数据处理</Link>
+            <Link to='/home/' activeClassName='active'>首页</Link>
           </li>
         </ul>
         <div className='content-container'>
