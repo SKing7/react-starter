@@ -1,0 +1,97 @@
+/*
+@import './variables/components';
+@import './themes/default';
+*/
+
+@import './variables/helpers';
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~normalize.css/normalize.css';
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #E8EBED;
+}
+.input-inline {
+  width: auto!important;
+}
+.h100 {
+  height: 100%;
+}
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+th {
+  font-weight: normal;
+}
+
+label {
+  font-weight: normal;
+}
+
+.checkbox, .radio {
+  margin: 0;
+}
+
+.btn-default {
+  width: auto;
+  border-color: #0EB886;
+  color: #0EB886;
+  &:focus,
+  &:hover {
+    border-color: #0EB886;
+    color: #0EB886;
+    background: #fff;
+  }
+}
+.btn-default.disabled {
+  width: auto;
+  border-color: #BFBFBF;
+  color: #BFBFBF;
+  &:focus,
+  &:hover {
+    cursor: disabled;
+    border-color: #BFBFBF;
+    color: #BFBFBF;
+    background: #fff;
+  }
+}
+
+.file-select-modal .modal-header {
+  padding: 7px 15px;
+  background: rgba(12, 166, 120, 0.25);
+
+  h4 {
+    font-size: 14px;
+  }
+}
+
+.file-select-modal .table thead  {
+  background: rgba(12, 166, 120, 0.1);
+}
+
+.file-select-modal .table tr:nth-child(odd)  {
+  background: rgba(12, 166, 120, 0.1);
+}
+
+.relative {
+  position: relative;
+}
+.vertical-top {
+  vertical-align: top;
+}
+.checkbox-inline input[type=checkbox] {
+  position: static;
+}
+.error-msg {
+  text-align: center;
+  color: #ff323c;
+}
+.has-success .control-label {
+  color: #333;
+}
+.has-error .control-label {
+  color: #333;
+}

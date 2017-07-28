@@ -1,0 +1,19 @@
+@import 'base';
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}

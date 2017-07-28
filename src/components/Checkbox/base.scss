@@ -1,0 +1,22 @@
+:local(.wrapper) {
+  position: relative;
+  .checkbox-inline {
+    margin-right: 5px;
+    padding-left: 0;
+  }
+  input[type="checkbox"] {
+    position: absolute;
+    left: -99999px;
+  }
+  i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    background: url('./assets/icon-checkbox.png') no-repeat;
+    vertical-align: -2px;
+  }
+  input[type="checkbox"]:checked + i {
+    background: url('./assets/icon-checkbox-checked.png') no-repeat;
+  }
+}

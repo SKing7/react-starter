@@ -1,0 +1,57 @@
+:local(.wrapper) {
+  /*Grid 组件生成容器class*/
+  .container {
+    width: auto;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+    .row {
+      margin-bottom: 50px;
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    .mt-50 {
+      margin-top: 50px;
+    }
+
+    .radio-block {
+      margin-right: 80px;
+    }
+  }
+
+  .file-process-input {
+    border: none;
+    border-bottom: 1px solid #4EE2C2;
+    box-shadow: none;
+    border-radius: 0;
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .has-error .file-process-input {
+    border-bottom: 1px solid red;
+    transition: border-color .5s ease-in-out;
+
+    &:focus {
+      box-shadow: none;
+      border-bottom: 1px solid red;
+    }
+  }
+
+  .has-success .file-process-input {
+    &:focus {
+      box-shadow: none;
+      border-bottom: 1px solid #4EE2C2;
+    }
+  }
+  .tips {
+    color: #999;
+  }
+  .form-group {
+    margin-bottom: 5px;
+  }
+}
+
