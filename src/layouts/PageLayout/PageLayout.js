@@ -6,20 +6,14 @@ import styles from './PageLayout.scss'
 
 class PageLayout extends React.Component {
 
-  returnToWeb() {
-    document.location.href = '/Apps/html/index_new_v.html'
-  }
   render() {
     return (
     <div className={`${styles.wrapper} h100`}>
       <header>
         <h1 className="header-nav">
           <img alt='' width="34" height="31" className='logo' src={logo} className="mr-15"/>
-          数据预处理系统
+          DEMO
         </h1>
-        <nav>
-          <span className="nav-item nav-item--return" onClick={this.returnToWeb}><i></i>返回主页面</span>
-        </nav>
       </header>
       <div className="content-wrapper">
         <ul className='left-nav'>
